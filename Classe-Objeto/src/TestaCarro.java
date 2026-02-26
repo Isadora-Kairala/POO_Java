@@ -24,7 +24,7 @@ public class TestaCarro {
 
 
             /*
-            Carro obj2 = new Carro();
+            Carro obj2 = new Carro("Caoa Cherry", "Tiggo 8", 110, true););
             obj2.marca = "GM";
             obj2.modelo = "Onix";
             obj2.velocidade = 0;
@@ -37,6 +37,12 @@ public class TestaCarro {
         //objeto usando contrutor:
         Carro carro = new Carro("Caoa Cherry", "Tiggo 8", 110, true);
         System.out.println(carro.toString());
+
+
+        carro.ligar();
+        carro.acelerar(30);
+        carro.acelerar(60);
+        carro.frear(20);
 
 
 
