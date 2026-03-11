@@ -1,4 +1,9 @@
-### Kotlin
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 .kotlin
 
 ### Eclipse ###
@@ -23,5 +28,14 @@ bin/
 ### VS Code ###
 .vscode/
 
+### Java ###
+*.class
+
+### Logs ###
+*.log
+
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
