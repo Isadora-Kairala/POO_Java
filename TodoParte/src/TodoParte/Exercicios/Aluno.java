@@ -3,9 +3,7 @@ package TodoParte.Exercicios;
 public class Aluno {
 
     private int id;
-    private String nome;
-    private String ra;
-    private String curso;
+    private String nome, ra, curso;
 
     public Aluno() {
     }
