@@ -1,4 +1,5 @@
 
+package src;
 
 public class DesenvolvedorJava {
     protected String nome, linguagem;
@@ -44,5 +45,11 @@ public class DesenvolvedorJava {
                 ", linguagem='" + linguagem + '\'' +
                 ", salarioBase=" + salarioBase +
                 '}';
+    }
+    public void codar(){
+        System.out.printf("Desenvolvedor planeja e escreve codigo");
+    }
+    public float calcularBonus(){
+        return this.salarioBase * 0.05f;
     }
 }
