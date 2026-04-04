@@ -11,7 +11,7 @@ public class Edificio {
         this.apartamento = apartamento;
     }
 
-    public Edificio(String nome, String endereco, ArrayList<Apartamento> apartamento) {
+    public Edificio(String nome, String endereco) {
         this.nome = nome;
         this.endereco = endereco;
         this.apartamento= new ArrayList<>();
@@ -42,11 +42,11 @@ public class Edificio {
 
     @Override
     public String toString() {
-        return "Edificio{" +
-                "nome='" + nome + '\'' +
-                ", endereco='" + endereco + '\'' +
-                ", apartamento=" + apartamento +
-                '}';
+        return "\nEdificio: " +
+                "\nnome: '" + nome + '\'' +
+                ", \nendereco: '" + endereco + '\'' +
+                ", \napartamento: " + apartamento +
+                ':';
     }
 }
 

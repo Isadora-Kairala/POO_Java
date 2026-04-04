@@ -30,9 +30,9 @@ public class Apartamento {
 
     @Override
     public String toString() {
-        return "Apartamento{" +
-                "numero=" + numero +
-                ", andar='" + andar + '\'' +
-                '}';
+        return "Apartamento: " +
+                "numero: " + numero +
+                ", andar: " + andar + '\'' +
+                ':';
     }
 }
