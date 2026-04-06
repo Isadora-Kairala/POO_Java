@@ -1,4 +1,4 @@
-package src;
+
 public class Pleno extends DesenvolvedorJava {
     private int projetosEntregues;
 

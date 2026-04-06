@@ -1,4 +1,4 @@
-package src;
+
 public class Senior extends DesenvolvedorJava {
     private float verbalider;
 
