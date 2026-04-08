@@ -1,6 +1,6 @@
 package Sistema_Veiculos;
 
-public class CarroEletrico extends Veiculo {
+public class            CarroEletrico extends Veiculo {
     /*
     Classe Filha CarroEletrico:
 Atributo próprio: autonomiaBateria (int).
